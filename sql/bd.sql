@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS "keys" (
+    "key" VARCHAR(255) PRIMARY KEY,
+    "type_key" VARCHAR(255) NOT NULL
+);
